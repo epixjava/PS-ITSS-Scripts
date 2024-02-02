@@ -8,7 +8,7 @@
 
 $name = Read-Host -Prompt "Please Enter AD Group " # Prompts user for Input
 $csvFileName = Read-Host -Prompt "Please Enter a Name for the CSV File" # Prompt for CSV file name
-$outputPath = "C:\$csvFileName.csv" # Defines the output path including the filename
+$outputPath = "C:\$csvFileName.csv" # Defines the output path including the filename. Change this to change your save location
 
 Get-ADGroupMember -Identity $name -Recursive | # Searches all child groups
 Get-ADUser -Properties Mail | # Searches for email
