@@ -1,5 +1,4 @@
-﻿
-<#      
+﻿<#      
     Written by MJ Lema - Jan 2024
 	Version 3.0 
 	Generate RDP Files based on OU
